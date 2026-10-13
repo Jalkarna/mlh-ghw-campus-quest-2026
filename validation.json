@@ -1,0 +1,47 @@
+[
+  {
+    "scenario": "victory",
+    "exit_code": 0,
+    "ending": [
+      "=== Victory! ===",
+      "Your team delivers a confident demo, wins the showcase, and earns free pizza for the whole club."
+    ],
+    "stderr": ""
+  },
+  {
+    "scenario": "creative_victory",
+    "exit_code": 0,
+    "ending": [
+      "=== Creative Victory! ===",
+      "The demo is rough around the edges, but your bold presentation wins the audience award. Campus Quest complete!"
+    ],
+    "stderr": ""
+  },
+  {
+    "scenario": "loss",
+    "exit_code": 0,
+    "ending": [
+      "=== Quest Over ===",
+      "The plan falls apart before the showcase. You learn from the mistakes and promise to try again tomorrow."
+    ],
+    "stderr": ""
+  },
+  {
+    "scenario": "invalid_then_quit",
+    "exit_code": 0,
+    "ending": [
+      "=== Quest Paused ===",
+      "You head home to recharge. Maybe next time!"
+    ],
+    "stderr": ""
+  },
+  {
+    "scenario": "quit_later",
+    "exit_code": 0,
+    "ending": [
+      "=== Quest Paused ===",
+      "You step aside and save your energy for another adventure."
+    ],
+    "stderr": ""
+  }
+]
